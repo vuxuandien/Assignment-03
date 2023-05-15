@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+  /* navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .a-avatar {
+    display: none;
+  }
+
+  .nav {
+    border: none;
+  }
+
+  .nav:first-child {
+    border: none;
+  }
+
+  /* chứng chỉ - giải thưởng */
+  .chung-chi {
+    border: none;
+    border-bottom: 2px solid #e24f2b;
+    margin: 20px 0;
+  }
+
+  .chung-chi-img {
+    width: 100%;
+  }
+
+  /* Dự án */
+  .da-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+
+  .da-table {
+    height: 200px;
+  }
+
+  .da-h {
+    height: 450px;
+  }
+
+  .cv2 {
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .cv2-2 {
+    gap: 15px;
+  }
+}
